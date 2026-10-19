@@ -1,0 +1,30 @@
+{
+  "dataset": {
+    "propositions": 30,
+    "answerable": 26,
+    "unanswerable": 4,
+    "chunks": 8,
+    "mode": "llm"
+  },
+  "quality": {
+    "fact_accuracy": 0.8846,
+    "keyword_coverage_avg": 0.8846,
+    "citation_valid_rate": 0.8846
+  },
+  "safety": {
+    "refusal_accuracy": 1.0
+  },
+  "efficiency": {
+    "avg_rounds": 1.27,
+    "avg_evidence_chunks": 4.88,
+    "p50_latency_ms": 1281.5
+  },
+  "llm_usage": {
+    "calls": 23,
+    "prompt_tokens": 16232,
+    "completion_tokens": 2348,
+    "total_tokens": 18580,
+    "latency_ms": 29227.1,
+    "errors": 0
+  }
+}

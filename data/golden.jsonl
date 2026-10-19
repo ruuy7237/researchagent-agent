@@ -1,0 +1,30 @@
+{"q": "企业大模型应用主要落在哪几类场景", "docs": ["01_大模型应用落地现状"], "must": ["客服", "知识", "内容", "代码"], "answerable": true}
+{"q": "为什么长上下文和反思会抬高成本", "docs": ["01_大模型应用落地现状"], "must": ["输入长度", "调用次数"], "answerable": true}
+{"q": "端到端时延由哪几部分构成", "docs": ["01_大模型应用落地现状"], "must": ["检索", "首 token", "流式"], "answerable": true}
+{"q": "中小企业 AI 岗位常见的人员配置是什么样的", "docs": ["01_大模型应用落地现状"], "must": ["一个人", "需求"], "answerable": true}
+{"q": "分级模型路由解决什么问题", "docs": ["01_大模型应用落地现状"], "must": ["小模型", "成本"], "answerable": true}
+{"q": "首 token 时延受什么影响", "docs": ["01_大模型应用落地现状"], "must": ["模型规模", "并发"], "answerable": true}
+{"q": "单 Agent 和多 Agent 的差别是什么", "docs": ["02_Agent工程实践"], "must": ["职责隔离", "通信开销"], "answerable": true}
+{"q": "Supervisor–Worker 结构怎么工作", "docs": ["02_Agent工程实践"], "must": ["调度", "派发"], "answerable": true}
+{"q": "工具调用需要哪三件事", "docs": ["02_Agent工程实践"], "must": ["工具描述", "JSON Schema", "错误"], "answerable": true}
+{"q": "不可逆动作怎么做人在环", "docs": ["02_Agent工程实践"], "must": ["三级", "确认"], "answerable": true}
+{"q": "Agent 评测除了成功率还要看什么", "docs": ["02_Agent工程实践"], "must": ["步数", "误操作", "人工接管"], "answerable": true}
+{"q": "只看任务成功率会掩盖什么问题", "docs": ["02_Agent工程实践"], "must": ["步数", "接管"], "answerable": true}
+{"q": "稀疏检索和稠密检索分别擅长什么", "docs": ["03_RAG工程要点"], "must": ["专有名词", "语义"], "answerable": true}
+{"q": "RRF 解决了什么问题，又没解决什么", "docs": ["03_RAG工程要点"], "must": ["排序", "库里"], "answerable": true}
+{"q": "父子分块为什么有用", "docs": ["03_RAG工程要点"], "must": ["子块", "父块"], "answerable": true}
+{"q": "幻觉的两类来源分别怎么处理", "docs": ["03_RAG工程要点"], "must": ["召回", "仅依据"], "answerable": true}
+{"q": "拒答阈值为什么要用标注集扫", "docs": ["03_RAG工程要点"], "must": ["可答率", "错误率"], "answerable": true}
+{"q": "RAG 评测为什么要拆开检索和生成", "docs": ["03_RAG工程要点"], "must": ["命中率", "引用"], "answerable": true}
+{"q": "AI 应用常见的定价方式有哪些", "docs": ["04_AI产品商业化与风险"], "must": ["席位", "调用量", "分成"], "answerable": true}
+{"q": "按调用量计费对客户有什么问题", "docs": ["04_AI产品商业化与风险"], "must": ["预算"], "answerable": true}
+{"q": "单用户毛利要怎么算，哪项成本最容易被忽略", "docs": ["04_AI产品商业化与风险"], "must": ["推理", "兜底"], "answerable": true}
+{"q": "生成内容的合规风险有哪些", "docs": ["04_AI产品商业化与风险"], "must": ["版权", "个人信息", "监管"], "answerable": true}
+{"q": "高风险领域产品定位为什么要收敛", "docs": ["04_AI产品商业化与风险"], "must": ["建议", "诊断"], "answerable": true}
+{"q": "企业内部推广 AI 工具最大的阻力是什么", "docs": ["04_AI产品商业化与风险"], "must": ["信任", "习惯"], "answerable": true}
+{"q": "先做建议不做决定的推广策略为什么有效", "docs": ["04_AI产品商业化与风险"], "must": ["可回滚", "信任"], "answerable": true}
+{"q": "多 Agent 的调试复杂度为什么更高，和评测指标有什么关系", "docs": ["02_Agent工程实践"], "must": ["通信", "步数"], "answerable": true}
+{"q": "深圳跨境电商卖家使用大模型的具体营收数据是多少", "docs": [], "must": [], "answerable": false}
+{"q": "某公司 2026 年 AI 团队的准确人数和薪资带宽", "docs": [], "must": [], "answerable": false}
+{"q": "国内大模型厂商最新一轮融资的具体金额", "docs": [], "must": [], "answerable": false}
+{"q": "GPT 系列模型的具体参数量是多少", "docs": [], "must": [], "answerable": false}
